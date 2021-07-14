@@ -16,5 +16,5 @@ for item in items[0:10]:
 print('Trends in persian twitter:')
 i = 1
 for item in pars_items:
-    print('%2i- The Hashtag #%30s trended by %9i twits and retwits.' % (i, item, pars_items[item]['count']))
+    print('%2i- Hashtag #%30s trended with %9i tweets and retweets.' % (i, item, pars_items[item]['count']))
     i += 1
